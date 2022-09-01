@@ -52,29 +52,30 @@
         <div class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="0" class ="active"></li>
                     <li data-target="#mainSlider" data-slide-to="1"></li>
                     <li data-target="#mainSlider" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carrousel-item active">
-                        <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce" />
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Vamos criar um e-commerce?</h2>
                             <p>Conte com nossa equipe, atendemos mais de 1000 lojas virtuais!</p>
                             <a href="#" class="main-btn">Ver Portifólio</a>
                         </div>    
                     </div>
-                    <div class="carrousel-item">
-                        <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
+                    <div class="carousel-item">
+                        <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software" />
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Que tal tirar o projeto do papel?</h2>
                             <p>Nossa equipe está pronta para atendê-lo!</p>
                             <a href="#" class="main-btn">Entre em contato!</a>
                         </div>    
                     </div>
-                    <div class="carrousel-item">
-                        <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
+                    <div class="carousel-item">
+                        <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software" />
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Você está buscando manutenção em seu software?</h2>
                             <p>Estamos disponíveis para resolver quaiquer eventualidades!</p>
@@ -88,3 +89,31 @@
 </body>
 
 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>

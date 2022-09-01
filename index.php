@@ -30,7 +30,14 @@
 
 </head>
 <body>
-    <h1> Fucionando! </h1>
+    <div class = "conteiner id="nav-conteiner">
+        <nav class = "navbar navbr-expand-lg fixed-top">
+            <a href = "#" class = "navbar-brand">
+                <img src = "img/hdcagency_logo.svg" alt = "hDC Agency"> Samuel Agency
+            </a>
+        </nav>
+    </div>
+    <h1> Working! </h1>
     <script src="js/script.js"></script>
 </body>
 </html>

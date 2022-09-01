@@ -29,7 +29,7 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
                     <a href="#" class="navbar-brand">
-                        <img src="img/hdcagency_logo.svg" alt="hDC Agency"> Samuel's Agency
+                        <img class="logo" src="img/hdcagency_logo.svg" alt="hDC Agency"> Samuel's Agency
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
                         aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"> 
@@ -37,48 +37,38 @@
                     </button> 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a href="nav-item nav-link" id="home-menu">Home</a>
-                        <a href="nav-item nav-link" id="about-menu">A agência</a>
-                        <a href="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a href="nav-item nav-link" id="team-menu">Time</a>
-                        <a href="nav-item nav-link" id="portifolio-menu">Projetos</a>
-                        <a href="nav-item nav-link" id="contact-menu">Contato</a>
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">A agência</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-
-
-
- <!--   <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">FUNCIONOU</a>
-    <a href="nav-item nav-link" id="home-menu">Navbar</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-    <h1> Working! </h1>
-    <script src="js/script.js"></script>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carrousel-item active">
+                        <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Vamos criar um e-commerce?</h2>
+                            <p>Conte com nossa equipe, atendemos mais de 1000 lojas virtuais!</p>
+                            <a href="#" class="main-btn">Ver Portifólio</a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-</html>
+
 

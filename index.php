@@ -65,6 +65,22 @@
                             <a href="#" class="main-btn">Ver Portifólio</a>
                         </div>    
                     </div>
+                    <div class="carrousel-item">
+                        <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Que tal tirar o projeto do papel?</h2>
+                            <p>Nossa equipe está pronta para atendê-lo!</p>
+                            <a href="#" class="main-btn">Entre em contato!</a>
+                        </div>    
+                    </div>
+                    <div class="carrousel-item">
+                        <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Você está buscando manutenção em seu software?</h2>
+                            <p>Estamos disponíveis para resolver quaiquer eventualidades!</p>
+                            <a href="#" class="main-btn">Entre em contato!</a>
+                        </div>    
+                    </div>
                 </div>
             </div>
         </div>

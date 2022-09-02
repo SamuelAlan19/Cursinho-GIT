@@ -19,32 +19,8 @@
     <script src="js/progressbar.min.js"></script>
     <!--Parallax-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-
 </head>
 <body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                    <a href="#" class="navbar-brand">
-                        <img class="logo" src="img/hdcagency_logo.svg" alt="hDC Agency"> Samuel's Agency
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
-                        aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"> 
-                        <span class="navbar-toggler-icon"></span>
-                    </button> 
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="about-menu">A agência</a>
-                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a class="nav-item nav-link" id="team-menu">Time</a>
-                        <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
     <main>
         <div class="container-fluid">
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
@@ -90,5 +66,10 @@
             </div>
         </div>
     </main>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="js/22bd473149.js"></script>
     <script src="js/script.js"></script>
 </body>

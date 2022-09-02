@@ -67,15 +67,15 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Que tal tirar o projeto do papel?</h2>
                             <p>Nossa equipe está pronta para atendê-lo!</p>
-                            <a href="#" class="main-btn">Entre em contato!</a>
+                            <a href="#" class="main-btn">Entre em contato</a>
                         </div>    
                     </div>
                     <div class="carousel-item">
                         <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Você está buscando manutenção em seu software?</h2>
-                            <p>Estamos disponíveis para resolver quaiquer eventualidades!</p>
-                            <a href="#" class="main-btn">Entre em contato!</a>
+                            <p>Estamos disponíveis para resolver quaisquer eventualidades!</p>
+                            <a href="#" class="main-btn">Entre em contato</a>
                         </div>    
                     </div>
                 </div>
@@ -86,7 +86,33 @@
                 <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                </a>                
+            </div>           
+        </div>
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre a Samuel's Agency</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/agencia.jpg" alt="Agencia hDC">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title">Uma Agência futurista!</h3>
+                        <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
+                        <p>Alinhamos seus desejos e ideais de forma que seja possível concretizá-los de maneira mais rápida e coerente ao mercado.</p>
+                        <p>Buscamos não somente atendê-los com um serviço de exelência, mas também com um valor acessível a qualquer um que deseje entrar no mercado virtual.</p>
+                        <p>Veja nossos diferênciais:</p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i>Utilização de Machine Learning</li>
+                            <li><i class="fas fa-check"></i>Layout responsivo para todos os dispositivos</li>
+                            <li><i class="fas fa-check"></i>Integração com diversos sistemas do mercado</li>
+                            <li><i class="fas fa-check"></i>Sistema de pagamento próprio</li>
+                            <li><i class="fas fa-check"></i>Desenvolvimnto com metodologia ágil</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

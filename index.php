@@ -219,6 +219,20 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="apply-area">
+                <div class="container-fluid">
+                    <div calss="row">
+                        <div class="col-md-6 apply-box" id="company-img"></div>
+                        <div class="col-md-6 apply box" id="pattern-img">
+                        <h4>Gosta de Desafios?</h4>
+                        <p>Possuímos várias opções disponíveis, entre elas: Software Engineer, UI/UX Designer, Project Manager, dentre outras.</p>
+                        <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
+                        <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais competentes.</p>
+                        <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                        </div>   
+                    </div>
+                </div>
             </div>              
         </div> 
     </main>

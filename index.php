@@ -61,7 +61,7 @@
                             <p>Conte com nossa equipe, atendemos mais de 1000 lojas virtuais!</p>
                             <a href="#" class="main-btn">Ver Portifólio</a>
                         </div>    
-                    </div>
+                    </div>   
                     <div class="carousel-item">
                         <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
                         <div class="carousel-caption d-none d-md-block">
@@ -86,74 +86,96 @@
                 <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>                
-            </div>           
-        </div>
-        <div id="about-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title">Sobre a Samuel's Agency</h3>
+                </a> 
+            </div>
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a Samuel's Agency</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/agencia.jpg" alt="Agencia hDC">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma Agência futurista!</h3>
+                            <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
+                            <p>Alinhamos seus desejos e ideais de forma que seja possível concretizá-los de maneira mais rápida e coerente ao mercado.</p>
+                            <p>Buscamos não somente atendê-los com um serviço de exelência, mas também com um valor acessível a qualquer um que deseje entrar no mercado virtual.</p>
+                            <p>Veja nossos diferênciais:</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i>Utilização de Machine Learning</li>
+                                <li><i class="fas fa-check"></i>Layout responsivo para todos os dispositivos</li>
+                                <li><i class="fas fa-check"></i>Integração com diversos sistemas do mercado</li>
+                                <li><i class="fas fa-check"></i>Sistema de pagamento próprio</li>
+                                <li><i class="fas fa-check"></i>Desenvolvimnto com metodologia ágil</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="img/agencia.jpg" alt="Agencia hDC">
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="about-title">Uma Agência futurista!</h3>
-                        <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
-                        <p>Alinhamos seus desejos e ideais de forma que seja possível concretizá-los de maneira mais rápida e coerente ao mercado.</p>
-                        <p>Buscamos não somente atendê-los com um serviço de exelência, mas também com um valor acessível a qualquer um que deseje entrar no mercado virtual.</p>
-                        <p>Veja nossos diferênciais:</p>
-                        <ul id="about-list">
-                            <li><i class="fas fa-check"></i>Utilização de Machine Learning</li>
-                            <li><i class="fas fa-check"></i>Layout responsivo para todos os dispositivos</li>
-                            <li><i class="fas fa-check"></i>Integração com diversos sistemas do mercado</li>
-                            <li><i class="fas fa-check"></i>Sistema de pagamento próprio</li>
-                            <li><i class="fas fa-check"></i>Desenvolvimnto com metodologia ágil</li>
-                        </ul>
+                </div>
+            </div> 
+            <div id ="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nossas Especialidades</h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Aplicativos Nativos</h4>
+                                <p>Utilizamos o poder dos dispositivos móveis construindo aplicativos nativos.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h4>E-commerces</h4>
+                            <p>Nossa plataforma própia de e-commerce, adaptável à qualquer regra de negócio (B2B & B2C).</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Design Criativo</h4>
+                            <p>Nossos designers são especializados em UI/UX e possuem mais de 5 anos de experiência em mercado.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fab fa-google"></i>
+                            <h4>Experts em SEO</h4>
+                            <p>Nosso serviço de marketing aprovisionará seu mercado e customizará seus lucros.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Suporte 24/7</h4>
+                            <p>Você terá direito a equipe de suporte em diferentes plataformas. (chat, email, skype).</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-server"></i>
+                            <h4>Experiência em servidores</h4>
+                            <p>Garantimos rápido tempo de resposta do seu site para seu cliente.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id ="services-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title">Nossas Especialidades</h3>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h4>Aplicativos Nativos</h4>
-                        <p>Utilizamos o poder dos dispositivos móveis construindo aplicativos nativos.</p>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fas fa-shopping-cart"></i>
-                        <h4>E-commerces</h4>
-                        <p>Nossa plataforma própia de e-commerce, adaptável à qualquer regra de negócio (B2B & B2C).</p>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fas fa-paint-brush"></i>
-                        <h4>Design Criativo</h4>
-                        <p>Nossos designers são especializados em UI/UX e possuem mais de 5 anos de experiência em mercado.</p>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fab fa-google"></i>
-                        <h4>Experts em SEO</h4>
-                        <p>Nosso serviço de marketing aprovisionará seu mercado e customizará seus lucros.</p>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fas fa-hands-helping"></i>
-                        <h4>Suporte 24/7</h4>
-                        <p>Você terá direito a equipe de suporte em diferentes plataformas. (chat, email, skype).</p>
-                    </div>
-                    <div class="col-md-4 service-box">
-                        <i class="fas fa-server"></i>
-                        <h4>Experiência em servidores</h4>
-                        <p>Garantimos rápido tempo de resposta do seu site para seu cliente.</p>
-                    </div>
+            <div id="data-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 circle-box">
+                            <div id="circleA"></div>
+                            <p>Projetos Entregues</p>                                                     
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleB"></div>
+                            <p>Clientes Satisfeitos</p>                                                     
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleC"></div>
+                            <p>Colaboradores</p>                                                     
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleD"></div>
+                            <p>Projetos em Andamento</p>                                                     
+                        </div>
+                   </div>
                 </div>
-            </div>
-        </div>
+            </div>              
+        </div> 
     </main>
     <script src="js/script.js"></script>
 </body>

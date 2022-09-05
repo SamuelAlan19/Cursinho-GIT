@@ -4,10 +4,10 @@ body{
 
 .row{
     margin:0;
-}
+} 
 
 .container{
-    padding: 70px 0; 
+     padding: 70px 0;  
 }
 
 p, li {
@@ -46,7 +46,7 @@ header, .navbar{
 }
 
 .container-fluid{
-    padding: 0; 
+     padding: 0;  
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
@@ -94,6 +94,7 @@ header, .navbar{
 
 #about-area{
     background-color: #F9F9F9;
+
 }
 
 .main-title{
@@ -157,3 +158,18 @@ header, .navbar{
     color: #65DAF9;
 }
 
+.circle-box div{
+    padding 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}

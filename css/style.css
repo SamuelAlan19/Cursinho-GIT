@@ -179,7 +179,7 @@ header, .navbar{
 }
 
 #apply-area{
-    height: 500px;
+    height: 600px;
 }
 
 #apply-area .container-fluid, #apply-area .row{
@@ -202,7 +202,7 @@ header, .navbar{
 }
 
 #pattern-img h4{
-    margin-top: 8%;
+    margin-top: 30%;
     margin-bottom: 20px;
     text-transform: uppercase;
 }

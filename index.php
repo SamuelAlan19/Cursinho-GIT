@@ -289,5 +289,40 @@
                 </div>
             </div>
     </main>
+    <footer>
+    <div id="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="main-title">Entre em contato conosco</h3>
+                </div>
+                <div class="col-md-4 contact-box">
+                    <i class="fas fa-phone"></i>
+                    <p><span class="contact-title"> Ligue para:</span> (31) 98258-1305</p>
+                    <p><span class="contact-title"> Horários:</span> 8:00 - 19:00</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                    <i class="fas fa-phone"></i>
+                    <p><span class="contact-title"> Envie um e-mail:</span> samuel.alan.58@gmail.com</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                <p><span class="contact-title"> Venha nos conhecer:</span> Rua dos tubinambas - 996</p>
+                </div>
+                <div class="col-md-6" id="msg-box">
+                    <p>Deixe-nos uma mensagem:</p>
+                </div>
+                <div class="col-md-6" id="contact-form">
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="E-mail" name="email"> </input>
+                        <input type="text" class="form-control" placeholder="Assunto" name="subject"></input>
+                        <textarea class="form-control" rows="3" placeholder="Sua mensagem ..." name="message"></textarea>
+                        <input type="submit" class="main-btn" value="Enviar"></input>
+                    </form> 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>

@@ -37,6 +37,9 @@ header, .navbar{
     color: #FFF; 
 }
 
+.nav-link:hover{ 
+    cursor:pointer !important;}
+
 #navbar-links a {
     color: #FFF;
 }

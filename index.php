@@ -261,13 +261,33 @@
                             <div class="col-md-4 project-box dsg">
                                 <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
                             </div>
-                            <div class="col-md-4 project-box seo">
+                            <div class="col-md-4 project-box dev">
                                 <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
                             </div>
                         </div>
                     </div>
-                </div>  
-        </div>
+                </div> 
+                <div id="news-area">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Fique por dentro das nossas novidades</h3>
+                        </div>
+                        <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
+                        <form action="">
+                            <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                            <input type="submit" id="news-btn" value="Inscrever">
+                        </form>
+                    </div>
+                </div> 
+                <div id="call-area">
+                    <div class="container">
+                        <div class="row">
+                            <p>Deseja realizar um orçamento, sem compromisso?</p>
+                            <button class="main-btn" id="call-btn">Orçar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     <script src="js/script.js"></script>
 </body>

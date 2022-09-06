@@ -302,11 +302,12 @@
                     <p><span class="contact-title"> Horários:</span> 8:00 - 19:00</p>
                 </div>
                 <div class="col-md-4 contact-box">
-                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-envelope"></i>
                     <p><span class="contact-title"> Envie um e-mail:</span> samuel.alan.58@gmail.com</p>
                 </div>
                 <div class="col-md-4 contact-box">
-                <p><span class="contact-title"> Venha nos conhecer:</span> Rua dos tubinambas - 996</p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><span class="contact-title"> Venha nos conhecer:</span> Rua dos Tubinambas - 996</p>
                 </div>
                 <div class="col-md-6" id="msg-box">
                     <p>Deixe-nos uma mensagem:</p>
@@ -318,7 +319,15 @@
                         <textarea class="form-control" rows="3" placeholder="Sua mensagem ..." name="message"></textarea>
                         <input type="submit" class="main-btn" value="Enviar"></input>
                     </form> 
-
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copy-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Desenvolvidor por <a href="hhtp:www.horadecodar.com.br" target="_blank"> Samuel's Agency</a> &copy; 2022</p>
                 </div>
             </div>
         </div>

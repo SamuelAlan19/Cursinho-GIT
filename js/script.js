@@ -149,7 +149,43 @@ step: function(state, circle) {
             }
         });
     }
-    }
+    } 
 
+    let navBtn = $('.nav-item');
+
+    let bannerSection = $('#mainSlider');
+    let aboutSection = $('#about-area');
+    let servicesSection = $('#services-area');
+    let teamSection = $('#team-area');
+    let portifolioSection = $('#portifolio-area');
+    let contactSection = $('#contact-area');
+
+    let scrollto = '';
+
+    $(navBtn).click(function() {
+        
+        let btnId = $(this).attr('id');
+        console.log(btnId);
+
+        if(btnId == 'about-menu') {
+            scrollTo = aboutSection;
+        } else if (btnId == 'services-menu') {
+            scrollto = servicesSection;
+        } else if (btnId == 'team-menu') {
+            scrollto = teamSection;
+        } else if (btnId == 'portifolio-menu') {
+            scrollto = portifolioSection; 
+        } else if (btnId == 'contact-menu') {
+            scrollto = contactSection;
+        } else {
+            scrollto = bannerSection;
+        }
+
+        $([document.documentElement, dicument.body]).animate({
+            scrollTop: $(scrollto).offset().top - 70
+        }, 1500);
+
+    });
+    
 
     });

@@ -24,7 +24,7 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                     <a href="#" class="navbar-brand">
                         <img class="logo" src="img/hdcagency_logo.svg" alt="hDC Agency"> Samuel's Agency
                     </a>
@@ -56,7 +56,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Vamos desenvolver um e-commerce?</h2>
                             <p>Conte com nossa equipe, atendemos mais de 1000 lojas virtuais!</p>
                             <a href="#" class="main-btn">Ver Portifólio</a>
@@ -64,7 +64,7 @@
                     </div>   
                     <div class="carousel-item">
                         <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Que tal tirar o projeto do papel?</h2>
                             <p>Nossa equipe está pronta para atendê-lo!</p>
                             <a href="#" class="main-btn">Entre em contato</a>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Você está buscando manutenção em seu software?</h2>
                             <p>Estamos disponíveis para resolver quaisquer eventualidades!</p>
                             <a href="#" class="main-btn">Entre em contato</a>
@@ -106,7 +106,7 @@
                             <ul id="about-list">
                                 <li><i class="fas fa-check"></i>Utilização de Machine Learning</li>
                                 <li><i class="fas fa-check"></i>Layout responsivo para todos os dispositivos</li>
-                                <li><i class="fas fa-check"></i>Integração com diversos sistemas do mercado</li>
+                                <li><i class="fas fa-check"></i>Integração com diversos sistemas</li>
                                 <li><i class="fas fa-check"></i>Sistema de pagamento próprio</li>
                                 <li><i class="fas fa-check"></i>Desenvolvimnto com metodologia ágil</li>
                             </ul>
@@ -270,7 +270,7 @@
                 <div id="news-area">
                     <div class="container">
                         <div class="col-md-12">
-                            <h3 class="main-title">Fique por dentro das nossas novidades</h3>
+                            <h3 class="main-title">Conheça nossas novidades</h3>
                         </div>
                         <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
                         <form action="">
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-md-4 contact-box">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p><span class="contact-title"> Venha nos conhecer:</span> Rua dos Tubinambas - 996</p>
+                    <p><span class="contact-title"> Venha nos conhecer:</span> Rua dos Tubinambas - N°996</p>
                 </div>
                 <div class="col-md-6" id="msg-box">
                     <p>Deixe-nos uma mensagem:</p>

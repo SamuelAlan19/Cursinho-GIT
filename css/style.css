@@ -368,7 +368,7 @@ border-color: #FFF;
     font-size: 22px;
 }
 
-#contact-form input[type="text"] #contact-form input[type="email"], #contact-form textarea{
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
     margin-bottom: 15px;
     border-radius: 0;
 }
@@ -403,4 +403,160 @@ border-color: #FFF;
 #copy-area .container a:hover{
     text-decoration: none;
     color: #3EC1D5;
+}
+
+
+@media(max-width: 768px){
+
+    .container{
+        padding: 20px 0;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
+    
+    #mainSlider .carousel-caption h2{
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption{
+        left: 10%;
+        right:10%;
+    }
+
+    #about-area img{
+        margin-top: 100px;
+    }
+
+    .circle-box div{
+        padding: 0 10px;
+    }
+
+    #data-area p{
+        font-size: 16px;
+    }
+
+    .card-title{
+        font-size: 14px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    #apply-area .apply-box{
+        padding: 50px 25px; 
+    }
+
+    #news-area p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input{
+        width: 70%;
+    }
+
+    #call-area{
+        margin-top: 30px;
+    }
+
+    #call-area .container{
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 425px){
+
+    #mainSlider{
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption{
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p{
+        display:none;
+    }
+
+    .carousel-caption .main-btn{
+        font-size: 14px;
+    }
+
+    .main-title{
+        font-size: 30px;
+    }
+
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .circle-box{
+        width:50%;
+    }
+
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    #apply-area{
+        height: auto;
+    }
+
+    #company-img{
+        display: none;
+    }
+
+    #portifolio-area .filter-btn{
+        margin-bottom: 20px;
+    }
+
+    .project-box{
+        width: 50%;
+    }
+
+    #news-area .main-title{
+        font-size: 24px;
+    }
+
+    #news-area p{
+        font-size: 16px;
+    }
+
+    #email-input{
+        width: 80%;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 12px;
+        letter-spacing: 0; 
+        margin: 0;
+        width: 50%;
+    }
+
+    .contact-box{
+        border: none;
+        margin-bottom: 0;
+    }
+
+
 }

@@ -160,7 +160,7 @@ step: function(state, circle) {
     let portifolioSection = $('#portifolio-area');
     let contactSection = $('#contact-area');
 
-    let scrollto = '';
+    let scrollTo = '';
 
     $(navBtn).click(function() {
         
@@ -168,7 +168,7 @@ step: function(state, circle) {
         console.log(btnId);
 
         if(btnId == 'about-menu') {
-            scrollTo = aboutSection;
+            scrollto = aboutSection;
         } else if (btnId == 'services-menu') {
             scrollto = servicesSection;
         } else if (btnId == 'team-menu') {
@@ -181,7 +181,7 @@ step: function(state, circle) {
             scrollto = bannerSection;
         }
 
-        $([document.documentElement, dicument.body]).animate({
+        $([document.documentElement, document.body]).animate({
             scrollTop: $(scrollto).offset().top - 70
         }, 1500);
 

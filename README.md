@@ -1,1 +1,1 @@
-# Cursinho-GIT
+# Projeto E-commerce

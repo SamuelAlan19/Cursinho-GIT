@@ -105,7 +105,7 @@
                             <p>Veja nossos diferênciais:</p>
                             <ul id="about-list">
                                 <li><i class="fas fa-check"></i>Utilização de Machine Learning</li>
-                                <li><i class="fas fa-check"></i>Layout responsivo para todos os dispositivos</li>
+                                <li><i class="fas fa-check"></i>Layout responsivo</li>
                                 <li><i class="fas fa-check"></i>Integração com diversos sistemas</li>
                                 <li><i class="fas fa-check"></i>Sistema de pagamento próprio</li>
                                 <li><i class="fas fa-check"></i>Desenvolvimnto com metodologia ágil</li>
